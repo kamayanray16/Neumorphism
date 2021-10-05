@@ -9,11 +9,11 @@
     box-shadow: 5px 5px 12px #6d8bab, -5px -5px 12px #d9ffff;
 }
 .box{
-    margin: 40px auto;
-    height: 450px;
-    width: 320px;
-    display: flex;
-    flex-direction: column;
+  margin: 40px auto;
+  height: 480px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
 }
 .box img{
     border-radius: 28px;
