@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #a3d0ff;
+    
+}
+.container{
+    width: 100%;
+    padding: 10px;
+}
+.box-shadow{
+    border-radius: 28px;
+    background: #a3d0ff;
+    box-shadow: 5px 5px 12px #6d8bab, -5px -5px 12px #d9ffff;
+}
+.box{
+    margin: 40px 20px;
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.box img{
+    border-radius: 28px;
+    object-fit: fill;
+    flex-basis: 80%;
+    margin: 10px;
+    cursor: pointer;
+}
+.box h2{
+    flex-basis: 10%;
+    margin: 10px;
+    cursor: pointer;
+}
+.align-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    background-color: black;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+  }
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  .nav-branding {
+    font-size: 2rem;
+  }
+  .nav-link {
+    transition: ease 0.7s;
+  }
+  .nav-link:hover {
+    color: dodgerblue;
+  }
+  .hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: white;
+  }
+  @media (max-width: 700px) {
+    .hamburger {
+      display: block;
+    }
+    .hamburger.active .bar:nth-child(2) {
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-menu {
+      position: fixed;
+      left: 100%;
+      top: 70px;
+      gap: 0;
+      flex-direction: column;
+      background-color: black;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .nav-items {
+      margin: 16px 0;
+    }
+    .nav-menu.active {
+      left: 0;
+    }
+  }
+@media (min-width: 900px){
+    .container{
+        padding: 20px;
+        display: flex;
+    }
+    .box{
+        margin: 20px 50px;
+        flex-basis: 30%;
+        height: 450px;
+    }
+}

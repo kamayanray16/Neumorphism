@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/Style/header.css">
+    <link rel="stylesheet" href="/Style/contact.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="box-shadow">
+      <nav class="navbar">
+        <a href="index.html" class="nav-branding">STORE</a>
+        <ul class="nav-menu">
+          <li class="nav-items">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-items">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-items">
+            <a href="products.html" class="nav-link">Products</a>
+          </li>
+          <li class="nav-items">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <div class="about">
+        <h2>About</h2>
+        <p class="box-shadow" style="padding: 10px;">
+          Welcome to Picture Perfect,<br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+          dolore cupiditate eaque soluta nihil? Pariatur ab illo hic
+          consequuntur, deleniti vero officiis dolorum eligendi dolore nam,
+          quo earum autem. Nulla! Lorem, <br />Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Earum blanditiis aut odio iste
+          nesciunt, nam facilis magnam error a soluta excepturi sit cupiditate
+          beatae et totam possimus? Odio, facere dicta.
+        </p>
+        <div class="row-about box-shadow">
+          <div class="about-img">
+            <img src="images/kamayan_pic.jpg" class="kapic box-shadow"/>
+          </div>
+          <div class="about-details box-shadow">
+            <h3>
+              Kamayan Ray <span><br /></span>(Web Developer)
+            </h3>
+            <hr />
+            <p>
+              Hello, myself Kamayan Ray. I am 19 years old currently pursuing
+              my B.Voc Software Devepment Degree from Ramanujan College Delhi
+              University. I have created this website and I am very keen to
+              know about your feedbacks wheater on the products or
+              website.Feel free to comment in our feedbacks page.I hope you
+              have a lovely time with Picture Perfect<br />
+            </p>
+            <p>Make sure to follow me on instagram:- kamayanray16</p>
+            <div class="follow box-shadow">
+              <h3>
+                <a
+                  href="https://www.instagram.com/kamayanray16/"
+                  target="_blank"
+                  >Instagram</a
+                >
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="row-about box-shadow">
+          <div class="about-img">
+            <img src="images/anu_pic.jpg" class="box-shadow"/>
+          </div>
+          <div class="about-details box-shadow">
+            <h3>Anurag Anand (Photo Editor)</h3>
+            <hr />
+            <p>
+              Hello, I am Anurag your Photo Editor. I am 19 years old
+              currently working at frame house. I have an experience of 2
+              years in photo editing. I love to make pictures of people look
+              more gorgious.I hope that you will like my work.You can see more
+              of works at my instagram handle bellow.Make sure to follow me
+              there to see my beautifull works... <br />
+            </p>
+            <p>Follow me on insta:- anuraganand972</span></p>
+            <div class="follow box-shadow">
+              <h3>
+                <a
+                  href="https://www.instagram.com/anuraganand972/"
+                  target="_blank"
+                  >Instagram</a
+                >
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div class="row-about box-shadow">
+          <div class="about-img">
+            <img src="images/kamal_pic.jpg" class="kpic box-shadow"/>
+          </div>
+          <div class="about-details box-shadow">
+            <h3>Kamal Aggarwal (Manager)</h3>
+            <hr />
+            <p>
+              Hello, I am Kamal Aggarwal. First of all welcome to Picture
+              Perfect where make your pictures perfect. I am 19 years old
+              currently pursuing B.Com from Ramjas College Delhi University.I
+              am the manager of Perfect Perfect. I manage all the things
+              releated to your order from the begging to the complete delevery
+              of your order.I will answer all you queries regarding you order. I hope you have a lovely time here... <br />
+            </p>
+            <p>Follow me on insta:- kamal_aggarwal04</p>
+            <div class="follow box-shadow">
+              <h3>
+                <a
+                  href="https://www.instagram.com/kamal_aggarwal04/"
+                  target="_blank"
+                  >Instagram</a
+                >
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+        const about = document.querySelector(".about");
+  
+        hamburger.addEventListener("click", () => {
+          hamburger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+          about.classList.toggle("hid");
+        });
+      </script>
+</body>
+</html>
