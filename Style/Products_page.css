@@ -41,6 +41,13 @@
     cursor: pointer;
     font-family: "Dancing Script", cursive;
 }
+.o h2{
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  padding: 20px;
+  color: white;
+  margin-top: 10px;
+}
 .hid{
   display: none;
 }

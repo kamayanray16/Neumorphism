@@ -8,11 +8,9 @@
 }
 .contact h2 {
   font-size: 2rem;
-}
-.contact-page h2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  font-family: "Dancing Script", cursive;
+  padding: 20px;
+  color: white;
 }
 
 .contact ul li {
@@ -146,6 +144,18 @@
 }
 .about-details p {
   margin: 20px 0;
+}
+.align-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about h2{
+  font-size: 2rem;
+  font-family: "Dancing Script", cursive;
+  padding: 20px;
+  color: white;
+  margin-top: 10px;
 }
 .follow {
   display: flex;
