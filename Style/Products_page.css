@@ -10,8 +10,8 @@
 }
 .box{
   margin: 40px auto;
-  height: 480px;
-  width: 330px;
+  height: 450px;
+  width: 310px;
   display: flex;
   flex-direction: column;
 }

@@ -1,0 +1,169 @@
+.box {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 700px;
+}
+.swiper {
+  flex-basis: 70%;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border: 20px solid;
+  border-image-source: url(/Images/black-frame.png);
+  border-image-slice: 15;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+.swiper-slide {
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.designer-frame {
+  border-image-source: url(/Images/designer-frame2.jpg);
+  border-image-slice: 15;
+}
+.wooden-frame {
+  border-image-source: url(/Images/wooden-frame11.jpeg);
+  border-image-slice: 30;
+}
+.white-frame {
+  border: 20px solid white;
+}
+.frame-btn {
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frame-btn-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.frame-btn-container h3,
+.align-center h2,
+.buy-links h3 {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-family: "Dancing Script", cursive;
+  margin: 8px;
+  font-size: 1.2rem;
+  color: white;
+}
+.align-center h2 {
+  color: black;
+  font-size: 1.4rem;
+}
+
+table {
+  margin: 15px;
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+td {
+  font-weight: 600;
+  font-size: 1rem;
+  border: 2px solid rgb(255, 255, 255);
+  border-top-style: none;
+  border-left-style: none;
+}
+th {
+  font-weight: bolder;
+  font-size: 1.1rem;
+  border: 2px solid rgb(255, 255, 255);
+  border-top-style: none;
+  border-left-style: none;
+}
+th:nth-child(3), td:nth-child(3){
+    border-right-style: none;
+}
+
+
+.details {
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.size {
+  padding: 20px;
+  margin: 20px 0;
+}
+.two {
+  padding: 3px;
+  height: 100%;
+}
+.details ul {
+  margin: 10px 0;
+  padding: 30px;
+}
+.details ul li {
+  margin: 10px 0;
+  font-family: "Quicksand", sans-serif;
+  list-style: disc;
+  text-align: justify;
+}
+.buy-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.hidd{
+    display: none;
+}
+.buy {
+  margin: 20px auto;
+  padding: 20px;
+}
+@media (min-width: 900px) {
+  main {
+    margin: 10px;
+    display: flex;
+  }
+  .box {
+    margin: 30px;
+    padding: 20px;
+    flex-basis: 48%;
+    height: 100%;
+  }
+  .swiper {
+    width: 600px;
+  }
+  table {
+    margin: 10px auto;
+  }
+  .buy {
+    margin: 0px;
+  }
+  .size {
+    margin-bottom: 40px;
+  }
+  .details {
+    margin-top: 0px;
+  }
+}
