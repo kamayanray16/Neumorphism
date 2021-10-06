@@ -10,7 +10,6 @@ woodenBtn.addEventListener("click", () => {
     frameChanger.classList.add("wooden-frame");
     frameChanger.classList.remove("designer-frame");
     frameChanger.classList.remove("white-frame");
-    console.log("Hi")
   });
   
   designerBtn.addEventListener("click", () => {

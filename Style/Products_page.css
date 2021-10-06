@@ -57,6 +57,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+  }
+
+  .box a{
+    color: black;
   }
   
   #logo {
