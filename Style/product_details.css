@@ -12,7 +12,7 @@
   margin-top: 10px;
   margin-bottom: 40px;
   border: 20px solid;
-  border-image-source: url(/Images/black-frame.png);
+  border-image-source: url(Images/black-frame.png);
   border-image-slice: 15;
 }
 
@@ -30,11 +30,11 @@
   height: 100%;
 }
 .designer-frame {
-  border-image-source: url(/Images/designer-frame2.jpg);
+  border-image-source: url(Images/designer-frame2.jpg);
   border-image-slice: 15;
 }
 .wooden-frame {
-  border-image-source: url(/Images/wooden-frame11.jpeg);
+  border-image-source: url(Images/wooden-frame11.jpeg);
   border-image-slice: 30;
 }
 .white-frame {
