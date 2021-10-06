@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   padding: 20px;
-  height: 800px;
+  height: 750px;
 }
 .swiper {
   flex-basis: 70%;
@@ -11,8 +11,9 @@
   height: 100%;
   margin-top: 10px;
   margin-bottom: 40px;
-  border: 20px solid;
-  border-image-source: url(/Images/black-frame.png);
+  border: 15px solid;
+  /* border-image-source: url(/Images/black-frame.png); */
+  border-image-source: url(../Images/black-frame.png);
   border-image-slice: 15;
 }
 
@@ -30,11 +31,13 @@
   height: 100%;
 }
 .designer-frame {
-  border-image-source: url(/Images/designer-frame2.jpg);
+  /* border-image-source: url(/Images/designer-frame2.jpg); */
+  border-image-source: url(../Images/designer-frame2.jpg);
   border-image-slice: 15;
 }
 .wooden-frame {
-  border-image-source: url(/Images/wooden-frame11.jpeg);
+  /* border-image-source: url(/Images/wooden-frame11.jpeg); */
+  border-image-source: url(../Images/wooden-frame11.jpeg);
   border-image-slice: 30;
 }
 .white-frame {
@@ -153,6 +156,7 @@ th:nth-child(3), td:nth-child(3){
   }
   .swiper {
     width: 600px;
+    border: 20px solid;
   }
   table {
     margin: 10px auto;
