@@ -189,11 +189,24 @@
   height: 250px;
 border-radius: 28px;
 }
+.aduj{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;align-items: center;
+}
+.aduj h3{
+  margin: 20px;
+}
 @media (min-width: 800px) {
   .contact ul li {
     margin: 0 50px;
   }
-
+  .aduj{
+    flex-direction: row;
+  }
+  .aduj h3{
+    margin: 0px;
+  }
   .contact {
     justify-content: space-around;
     height: 450px;
@@ -227,7 +240,7 @@ border-radius: 28px;
     object-position: 0px -50px;
   }
   .about-details {
-    height: 320px;
+    height: 100%;
     flex-basis: 60%;
   }
   .about-details span {
