@@ -23,7 +23,8 @@
     cursor: pointer;
 }
 .box h2{
-    flex-basis: 10%;
+  height: 100%;
+    /* flex-basis: 10%; */
     margin: 10px;
     cursor: pointer;
     font-family: "Dancing Script", cursive;
