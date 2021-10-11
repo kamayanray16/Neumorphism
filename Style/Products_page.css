@@ -9,17 +9,17 @@
 }
 .box {
   margin: 40px auto;
-  height: 430px;
-  width: 320px;
+  height: 450px;
+  width: 330px;
   display: flex;
   flex-direction: column;
 }
 .box img {
   border-radius: 28px;
   object-fit: fill;
-  flex-basis: 77%;
+  flex-basis: 80%;
   margin: 10px;
-  height: 77%;
+  height: 80%;
 }
 .box h2 {
   height: 100%;
