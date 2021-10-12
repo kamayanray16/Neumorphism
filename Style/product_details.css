@@ -12,7 +12,7 @@
   height: 100%;
   margin-top: 10px;
   margin-bottom: 40px;
-  border: 18px solid;
+  border: 16px solid;
   border-image-source: url(../Images/black-frame.png);
   border-image-slice: 15;
 }
