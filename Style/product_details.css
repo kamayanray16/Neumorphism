@@ -138,6 +138,7 @@ td:nth-child(2) {
 .details ul {
   margin: 10px 0;
   padding: 30px;
+  margin-top: 30px;
 }
 .details ul li {
   margin: 10px 0;
